@@ -22,8 +22,8 @@
         }               
     });
 
-    // sample-code CAROUSEL
-    $('#sample-code-carousel').owlCarousel({
+    // code-samples CAROUSEL
+    $('#code-samples-carousel').owlCarousel({
         loop:true,
         margin:10,
         responsiveClass:true,

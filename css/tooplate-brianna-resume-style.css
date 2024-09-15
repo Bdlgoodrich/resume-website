@@ -384,41 +384,41 @@ https://www.tooplate.com/view/2120-ben-resume
 
 
   /*---------------------------------------
-     sample-code               
+     code-samples               
   -----------------------------------------*/
 
-  .sample-code {
+  .code-samples {
     background: #f4edfd;
   }
 
-  .sample-code-image {
+  .code-samples-image {
     margin: 0 1rem 1rem 1rem;
   }
 
-  .sample-code-image img {
+  .code-samples-image img {
     border-radius: var(--border-radius-medium);
   }
 
-  .sample-code-info {
+  .code-samples-info {
     width: 100%;
   }
 
-  .sample-code .owl-theme .owl-nav.disabled+.owl-dots {
+  .code-samples .owl-theme .owl-nav.disabled+.owl-dots {
     margin-top: 2rem;
   }
 
-  .sample-code .owl-theme .owl-dots .owl-dot {
+  .code-samples .owl-theme .owl-dots .owl-dot {
     outline: none;
   }
 
-  .sample-code .owl-theme .owl-dots .owl-dot span {
+  .code-samples .owl-theme .owl-dots .owl-dot span {
     width: 30px;
     height: 3px;
     margin: 5px;
   }
 
-  .sample-code .owl-theme .owl-dots .owl-dot.active span, 
-  .sample-code .owl-theme .owl-dots .owl-dot:hover span {
+  .code-samples .owl-theme .owl-dots .owl-dot.active span, 
+  .code-samples .owl-theme .owl-dots .owl-dot:hover span {
     background: var(--primary-color);
   }
 
