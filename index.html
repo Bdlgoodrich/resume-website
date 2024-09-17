@@ -31,11 +31,11 @@ https://www.tooplate.com/view/2120-ben-resume
   <nav class="navbar navbar-expand-lg">
     <div class="container">
 
-      <a class="navbar-brand" href="#" id="navbar-brand">
+      <a class="navbar-brand" href="#" id="navbarTitleLink">
         Brianna Resume
       </a>
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -48,7 +48,7 @@ https://www.tooplate.com/view/2120-ben-resume
           </li>
 
           <li class="nav-item">
-            <a href="#about" class="nav-link smoothScroll" id="navbarAboutLink">About Me</a>
+            <a href="#about" class="nav-link smoothScroll" id="navbarAboutMeLink">About Me</a>
           </li>
 
           <li class="nav-item">
@@ -85,7 +85,7 @@ https://www.tooplate.com/view/2120-ben-resume
         <div class="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
           <div class="hero-text">
 
-            <h1 class="hero-title">Brianna Goodrich, aspiring Software Test Automation Engineer</h1>
+            <h1 class="hero-title" id="heroTitle">Brianna Goodrich, aspiring Software Test Automation Engineer</h1>
 
             <a href="mailto:bdlgoodrich@gmail.com" class="email-link" id="heroEmailLink">
               bdlgoodrich@gmail.com
@@ -128,20 +128,22 @@ https://www.tooplate.com/view/2120-ben-resume
           <img src="resources/code-with-warp.jpg" class="about-image img-fluid"
             alt="indistict code with warp effect">
         </div>
-      </div>
+      </div> <!--row-->
 
       <div class="row about-third">
+
         <div class="col-lg-4 col-md-4 col-12">
-        
+
           <h3>Work Experience</h3>
         
           <p>Combined 5 years as a Laboratory Technician in an analytical chemistry and
             University of Utah molecular biology research laboratories. Designed, developed, and optimized experiments. Performed detailed step-by-step procedures.
           </p>
         
-          </div>
+        </div>
+
         <div class="col-lg-4 col-md-4 col-12">
-        
+
           <h3>Applicable Skills</h3>
         
           <p>
@@ -154,8 +156,9 @@ https://www.tooplate.com/view/2120-ben-resume
           </p>
         
         </div>
-        <div class="col-lg-4 col-md-4 col-12">
-          
+
+        <div class="col-lg-4 col-md-4 col-12">  
+
           <h3>Code Stack</h3>
           
           <p>
@@ -174,8 +177,9 @@ https://www.tooplate.com/view/2120-ben-resume
           </p>
         
         </div>
-      </div>
-    </div>
+
+      </div> <!--row-->
+    </div> <!--container-->
   </section>
 
 
@@ -436,10 +440,10 @@ https://www.tooplate.com/view/2120-ben-resume
             <!--optional faq info text
                     <span class="faq-info-text">Please send us a message if you have anything to say. Send an email message to <strong>contact (at) tooplate (dot) com</strong></span>-->
 
-          </div>
-        </div><!-- col -->
-      </div><!-- row -->
-    </div><!-- container -->
+          </div> <!-- accordion -->
+        </div> <!-- col -->
+      </div> <!-- row -->
+    </div> <!-- container -->
   </section>
 
 
@@ -447,30 +451,28 @@ https://www.tooplate.com/view/2120-ben-resume
     <div class="container">
       <div class="row">
         <!--removing contact section until functionality can be added
-          <div class="col-lg-6 col-md-6 col-12">
-            <form action="#" method="get" class="contact-form webform"  role="form">
-                
-                <div class="form-group d-flex flex-column-reverse">
-                    <input type="text" class="form-control" name="cf-name" id="cf-name" placeholder="Your Name">
+        <div class="col-lg-6 col-md-6 col-12">
+          <form action="#" method="get" class="contact-form webform"  role="form">
+              
+            <div class="form-group d-flex flex-column-reverse">
+              <input type="text" class="form-control" name="cf-name" id="cf-name" placeholder="Your Name">
+              <label for="cf-name" class="webform-label">Full Name</label>
+            </div>
 
-                    <label for="cf-name" class="webform-label">Full Name</label>
-                </div>
+            <div class="form-group d-flex flex-column-reverse">
+              <input type="email" class="form-control" name="cf-email" id="cf-email" placeholder="Your Email">
+              <label for="cf-email" class="webform-label">Your Email</label>
+            </div>
 
-                <div class="form-group d-flex flex-column-reverse">
-                    <input type="email" class="form-control" name="cf-email" id="cf-email" placeholder="Your Email">
+            <div class="form-group d-flex flex-column-reverse">
+              <textarea class="form-control" rows="5" name="cf-message" id="cf-message" placeholder="Your Message"></textarea>
+              <label for="cf-message" class="webform-label">Message</label>
+            </div>
 
-                    <label for="cf-email" class="webform-label">Your Email</label>
-                </div>
-
-                <div class="form-group d-flex flex-column-reverse">
-                    <textarea class="form-control" rows="5" name="cf-message" id="cf-message" placeholder="Your Message"></textarea>
-
-                    <label for="cf-message" class="webform-label">Message</label>
-                </div>
-
-                <button type="submit" class="form-control" id="submit-button" name="submit">Send</button>
+            <button type="submit" class="form-control" id="submit-button" name="submit">Send</button>
+            
             </form>
-          </div> -->
+        </div> -->
 
         <div class="mx-auto col-lg-4 col-md-6 col-12">
           <h3 class="my-4 pt-4 pt-lg-0">Say hello</h3>
