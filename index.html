@@ -7,7 +7,7 @@
 
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="description" content="">
+  <meta name="description" content="Resume website for Brianna Goodrich">
   <meta name="keywords" content="">
   <meta name="author" content="Brianna Goodrich">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -31,7 +31,7 @@ https://www.tooplate.com/view/2120-ben-resume
   <nav class="navbar navbar-expand-lg">
     <div class="container">
 
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="#" id="navbar-brand">
         Brianna Resume
       </a>
 
@@ -44,49 +44,53 @@ https://www.tooplate.com/view/2120-ben-resume
         <ul class="navbar-nav mx-auto">
 
           <li class="nav-item">
-            <a href="#intro" class="nav-link smoothScroll">Introduction</a>
+            <a href="#intro" class="nav-link smoothScroll" id="navbarIntroLink">Introduction</a>
           </li>
 
           <li class="nav-item">
-            <a href="#about" class="nav-link smoothScroll">About Me</a>
+            <a href="#about" class="nav-link smoothScroll" id="navbarAboutLink">About Me</a>
           </li>
 
           <li class="nav-item">
-            <a href="#code-samples" class="nav-link smoothScroll">Code Samples</a>
+            <a href="#code-samples" class="nav-link smoothScroll" id="navbarCodeSamplesLink">Code Samples</a>
           </li>
 
           <li class="nav-item">
-            <a href="#contact" class="nav-link smoothScroll">Contact</a>
+            <a href="#FAQ" class="nav-link smoothScroll" id="navbarFAQLink">FAQ</a>
           </li>
-        
+
+          <li class="nav-item">
+            <a href="#contact" class="nav-link smoothScroll" id="navbarContactLink">Contact</a>
+          </li>
+
         </ul>
 
         <div class="mt-lg-0 mt-3 mb-4 mb-lg-0">
           <a href="resources/Brianna-Goodrich-Resume.pdf" class="custom-btn btn" target="_blank">View Resume</a>
         </div>
-      
+
       </div>
     </div>
   </nav>
 
   <!-- HERO -->
-  <section class="hero d-flex flex-column justify-content-center align-items-center" style="margin-top: 70px" id="intro">
+  <section class="hero d-flex flex-column justify-content-center align-items-center" style="margin-top: 70px" id="hero">
     <div class="container">
       <div class="row">
 
         <div class="mx-auto col-lg-5 col-md-5 col-10">
           <img src="resources/BG.jpg" class="img-fluid" alt="Brianna Goodrich">
         </div>
-        
+
         <div class="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
           <div class="hero-text">
-            
+
             <h1 class="hero-title">Brianna Goodrich, aspiring Software Test Automation Engineer</h1>
-            
+
             <a href="mailto:bdlgoodrich@gmail.com" class="email-link">
               bdlgoodrich@gmail.com
             </a>
-          
+
           </div>
         </div>
       </div>
@@ -94,37 +98,41 @@ https://www.tooplate.com/view/2120-ben-resume
   </section>
 
 
-  <section class="about section-padding" id="about">
+  <section class="about section-padding" id="intro">
     <div class="container">
       <div class="row">
 
         <div class="col-lg-6 col-md-6 col-12">
           <h3 class="mb-4">Introduction</h3>
 
-          <p>ISTQB-certified test automation engineer experienced with Java, JavaScript, C#, Selenium WebDriver, Playwright, and REST Assured.
+          <p>ISTQB-certified test automation engineer experienced with Java, JavaScript, C#, Selenium WebDriver,
+            Playwright, and REST Assured.
             Former laboratory technician with translatable skills and experiences, ready to build a new career.
             Meticulous worker with an eye for detail without losing sight of the big picture.
           </p>
 
-          <ul class="mt-4 mb-5 mb-lg-0 profile-list list-unstyled">
+          <ul class="mt-4 mb-5 mb-lg-0 profile-list list-unstyled" id="about">
             <li><strong>Full Name :</strong> Brianna Goodrich </li>
 
             <li><strong>Cellphone :</strong> (801) 971-8153</li>
 
             <li><strong>Email :</strong> bdlgoodrich@gmail.com</li>
 
-            <li><strong>LinkedIn :</strong> <a href="http://www.linkedin.com/in/brianna-goodrich-377591254" target="_blank">Brianna
+            <li><strong>LinkedIn :</strong> <a href="http://www.linkedin.com/in/brianna-goodrich-377591254"
+                target="_blank">Brianna
                 Goodrich</a> </li>
 
-            <li><strong>GitHub :</strong> <a href="http://www.github.com/Bdlgoodrich" target="_blank">bdlgoodrich</a> </li>
+            <li><strong>GitHub :</strong> <a href="http://www.github.com/Bdlgoodrich" target="_blank">bdlgoodrich</a>
+            </li>
           </ul>
         </div>
 
         <div class="col-lg-5 mx-auto col-md-6 col-12">
-          <img src="resources/html-with-cosmos.jpg" class="about-image img-fluid" alt="indistict code with cosmos effect">
+          <img src="resources/html-with-cosmos.jpg" class="about-image img-fluid"
+            alt="indistict code with cosmos effect">
         </div>
-
       </div>
+
       <div class="row about-third">
         <div class="col-lg-4 col-md-4 col-12">
           <h3>Work Experience</h3>
@@ -184,46 +192,52 @@ https://www.tooplate.com/view/2120-ben-resume
               <div class="code-samples-info">
 
                 <p>In-Progress skills and drills organization app</p>
-                
-                <h6 class="mb-0"><a id="nextjs-SandD-Git" href= "https://github.com/Bdlgoodrich/nextjs-SandD" target="_blank"> nextjs-SandD </a></h6>
+
+                <h6 class="mb-0"><a id="nextjs-SandD-Git" href="https://github.com/Bdlgoodrich/nextjs-SandD"
+                    target="_blank"> nextjs-SandD </a></h6>
                 <span>github</span>
-                  
-                <h6 class="mb-0"><a id="SandD_App" href="https://nextjs-sand-d-git-main-brianna-goodrichs-projects.vercel.app/" target="_blank"> SandD deployment</a></h6>
+
+                <h6 class="mb-0"><a id="SandD_App"
+                    href="https://nextjs-sand-d-git-main-brianna-goodrichs-projects.vercel.app/" target="_blank"> SandD
+                    deployment</a></h6>
                 <span>vercel</span>
-                
+
               </div>
             </div>
 
             <div class="item">
               <div class="code-samples-info">
-              
+
                 <p>In-Progress test automation solution for SandD</p>
-              
-                <h6 class="mb-0"><a id="nextjs-SandD-tas-git" href= "https://github.com/Bdlgoodrich/nextjs-SandD-tas" target="_blank"> nextjs-SandD-tas </a></h6>
+
+                <h6 class="mb-0"><a id="nextjs-SandD-tas-git" href="https://github.com/Bdlgoodrich/nextjs-SandD-tas"
+                    target="_blank"> nextjs-SandD-tas </a></h6>
                 <span>github</span>
-              
+
               </div>
             </div>
 
             <div class="item">
               <div class="code-samples-info">
-             
+
                 <p>Source code for this webpage</p>
-             
-                <h6 class="mb-0"><a id="resume-website-git" href= "https://github.com/Bdlgoodrich/resume-website" target="_blank"> resume-website </a></h6>
+
+                <h6 class="mb-0"><a id="resume-website-git" href="https://github.com/Bdlgoodrich/resume-website"
+                    target="_blank"> resume-website </a></h6>
                 <span>github</span>
-               
+
               </div>
             </div>
 
             <div class="item">
               <div class="code-samples-info">
-             
+
                 <p>In-Progress automated test suite for this website</p>
-             
-                <h6 class="mb-0"><a id="resume-website-tas-git" href= "https://github.com/Bdlgoodrich/resume-website-tas" target="_blank"> resume-website-tas </a></h6>
+
+                <h6 class="mb-0"><a id="resume-website-tas-git" href="https://github.com/Bdlgoodrich/resume-website-tas"
+                    target="_blank"> resume-website-tas </a></h6>
                 <span>github</span>
-               
+
               </div>
             </div>
 
@@ -232,7 +246,9 @@ https://www.tooplate.com/view/2120-ben-resume
 
                 <p>Partial Java-based Selenium test suite for practice e-commerce site.</p>
 
-                <h6 class="mb-0"><a id="Selenium-Practicework-git" href="https://github.com/Bdlgoodrich/Selenium-Practicework" target="_blank">Selenium-Practicework</a></h6>
+                <h6 class="mb-0"><a id="Selenium-Practicework-git"
+                    href="https://github.com/Bdlgoodrich/Selenium-Practicework"
+                    target="_blank">Selenium-Practicework</a></h6>
                 <span>github</span>
 
               </div>
@@ -243,7 +259,9 @@ https://www.tooplate.com/view/2120-ben-resume
 
                 <p>Introductory TypeScript-based Playwright test suite for practice e-commerce site.</p>
 
-                <h6 class="mb-0"><a id="QAP-IntroToPlaywright-git" href="https://github.com/Bdlgoodrich/QAP-IntroToPlaywright" target="_blank">QAP-IntroToPlaywright</a></h6>
+                <h6 class="mb-0"><a id="QAP-IntroToPlaywright-git"
+                    href="https://github.com/Bdlgoodrich/QAP-IntroToPlaywright"
+                    target="_blank">QAP-IntroToPlaywright</a></h6>
                 <span>github</span>
 
               </div>
@@ -257,7 +275,7 @@ https://www.tooplate.com/view/2120-ben-resume
 
 
   <!-- FAQ -->
-  <section class="faq section-padding">
+  <section class="faq section-padding" id="FAQ">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-12">
@@ -302,7 +320,7 @@ https://www.tooplate.com/view/2120-ben-resume
                     aria-expanded="false" aria-controls="collapse2">
                     Why are you going into Software QA / Test Automation?
                   </button>
-                
+
                 </h2>
               </div>
               <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionExample">
@@ -310,7 +328,17 @@ https://www.tooplate.com/view/2120-ben-resume
 
                   <p>TLDR: Because I enjoy and am good at it.</p>
 
-                  <p>Full Answer: When I realized that continuing in a laboratory setting was not going to provide a practical and enjoyable career path for me, I began looking for alternatives. My husband has been in software QA for many years and suggested that, with my knowledge of programming, attention to detail, and problem-solving skills, software automation testing would be a good career to pursue. So I started learning both functional skills and general testing practices. I started with a comprehensive Udemy course on Java-based Selenium Webdriver and studied for the ISTQB foundation level certification. At that point, I knew that not only could I succeed in a software QA position, but that I would enjoy it. I have an appreciation for both the verification and validation aspects of the role and love attending to the details of a project while also understanding how everything fits together to achieve the overarching objectives. So I've continued building my skills and knowledge in pursuit of this career path.
+                  <p>Full Answer: When I realized that continuing in a laboratory setting was not going to provide a
+                    practical and enjoyable career path for me, I began looking for alternatives. My husband has been in
+                    software QA for many years and suggested that, with my knowledge of programming, attention to
+                    detail, and problem-solving skills, software automation testing would be a good career to pursue. So
+                    I started learning both functional skills and general testing practices. I started with a
+                    comprehensive Udemy course on Java-based Selenium Webdriver and studied for the ISTQB foundation
+                    level certification. At that point, I knew that not only could I succeed in a software QA position,
+                    but that I would enjoy it. I have an appreciation for both the verification and validation aspects
+                    of the role and love attending to the details of a project while also understanding how everything
+                    fits together to achieve the overarching objectives. So I've continued building my skills and
+                    knowledge in pursuit of this career path.
                   </p>
 
                 </div>
@@ -320,15 +348,33 @@ https://www.tooplate.com/view/2120-ben-resume
             <div class="card">
               <div class="card-header" id="heading3">
                 <h2 class="mb-0">
-                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                    data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse3"
+                    aria-expanded="false" aria-controls="collapse3">
                     What is the connection between laboratory science and software testing?
                   </button>
                 </h2>
               </div>
               <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">
                 <div class="card-body">
-                  <p>The two may seem disparate at first, but they are actually very similar, once you get past the fact that one deals with physical compounds using lab equipment and the other deals with code using computers. <br><br/>The problem-solving process is remarkably similar among all scientific disciplines. Debugging code follows the same essential steps as trouble-shooting a science experiment. You analyze what went wrong, assess what part (or parts) of your code/experiment is most likely to cause that kind of issue, and investigate that area. You then implement a potential solution and analyze the results. Debugging can even be easier and faster because a science experiment doesn't usually come with an error log or call stack, you can't always analyze your results at intermediate steps, even if you could analyze an intermediary, it isn't always possible to run specific steps in isolation, and it almost always takes more time, effort, and materials to retry a science experiment compared to rerunning a validation test for a software bug. <br><br/>Additionally, following the protocol for a scientific experiment is likewise very similar to performing a manual software test. It's not just doing the steps, it's also knowing the purpose of each step and the expected result. This allows you to assess when you have encountered an unexpected result, even in the middle of the test. You can then assess if it might be human error, a fluke/glitch, or an actual issue with the protocol. In manual testing, that issue might be with the test or the software, so a thorough understanding of what you are testing and how it's supposed to behave are essential. In the event of human error or a glitch, understanding the test/procedure can allow you to assess the risk/reward of trying to remediate the error, as well as how to do it.
+                  <p>The two may seem disparate at first, but they are actually very similar, once you get past the fact
+                    that one deals with physical compounds using lab equipment and the other deals with code using
+                    computers. <br><br />The problem-solving process is remarkably similar among all scientific
+                    disciplines. Debugging code follows the same essential steps as trouble-shooting a science
+                    experiment. You analyze what went wrong, assess what part (or parts) of your code/experiment is most
+                    likely to cause that kind of issue, and investigate that area. You then implement a potential
+                    solution and analyze the results. Debugging can even be easier and faster because a science
+                    experiment doesn't usually come with an error log or call stack, you can't always analyze your
+                    results at intermediate steps, even if you could analyze an intermediary, it isn't always possible
+                    to run specific steps in isolation, and it almost always takes more time, effort, and materials to
+                    retry a science experiment compared to rerunning a validation test for a software bug.
+                    <br><br />Additionally, following the protocol for a scientific experiment is likewise very similar
+                    to performing a manual software test. It's not just doing the steps, it's also knowing the purpose
+                    of each step and the expected result. This allows you to assess when you have encountered an
+                    unexpected result, even in the middle of the test. You can then assess if it might be human error, a
+                    fluke/glitch, or an actual issue with the protocol. In manual testing, that issue might be with the
+                    test or the software, so a thorough understanding of what you are testing and how it's supposed to
+                    behave are essential. In the event of human error or a glitch, understanding the test/procedure can
+                    allow you to assess the risk/reward of trying to remediate the error, as well as how to do it.
                   </p>
                 </div>
               </div>
@@ -337,15 +383,24 @@ https://www.tooplate.com/view/2120-ben-resume
             <div class="card">
               <div class="card-header" id="heading4">
                 <h2 class="mb-0">
-                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                    data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse4"
+                    aria-expanded="false" aria-controls="collapse4">
                     How did you handle a significant problem you've encountered?
                   </button>
                 </h2>
               </div>
               <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
                 <div class="card-body">
-                  <p>When I started coaching at Momentum Gymnastics, I discovered that there was no comprehensive list of skills for each class. This makes training new coaches (like I was) more difficult. Additionally, all of our coaches have a wealth of knowledge on what drills to use to train these stills, but other coaches don't have access to their expertise. So I decided to create a web application that could hold all of the skills, what classes should learn them, and what drills can be used to train them. I'd never built a web app before, so I looked for an existing project to modify. I decided on a NextJS tutorial for a financial dashboard app. It has the components I need: a basic login and search, add, and update features for a central database. The code is available on my github. I will set up a visitor login soon. I am also in the process of writing a test automation solution for the app.
+                  <p>When I started coaching at Momentum Gymnastics, I discovered that there was no comprehensive list
+                    of skills for each class. This makes training new coaches (like I was) more difficult. Additionally,
+                    all of our coaches have a wealth of knowledge on what drills to use to train these stills, but other
+                    coaches don't have access to their expertise. So I decided to create a web application that could
+                    hold all of the skills, what classes should learn them, and what drills can be used to train them.
+                    I'd never built a web app before, so I looked for an existing project to modify. I decided on a
+                    NextJS tutorial for a financial dashboard app. It has the components I need: a basic login and
+                    search, add, and update features for a central database. The code is available on my github. I will
+                    set up a visitor login soon. I am also in the process of writing a test automation solution for the
+                    app.
                   </p>
                 </div>
               </div>
@@ -354,8 +409,8 @@ https://www.tooplate.com/view/2120-ben-resume
             <div class="card">
               <div class="card-header" id="heading5">
                 <h2 class="mb-0">
-                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                    data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse5"
+                    aria-expanded="false" aria-controls="collapse5">
                     What is the difference between theory and reality?
                   </button>
                 </h2>
@@ -376,11 +431,11 @@ https://www.tooplate.com/view/2120-ben-resume
     </div><!-- container -->
   </section>
 
-  <!--removing contact section until functionality can be added
-     <section class="contact section-padding pt-0" id="contact">
-      <div class="container">
-        <div class="row">
 
+  <section class="contact section-padding pt-0" id="contact">
+    <div class="container">
+      <div class="row">
+        <!--removing contact section until functionality can be added
           <div class="col-lg-6 col-md-6 col-12">
             <form action="#" method="get" class="contact-form webform"  role="form">
                 
@@ -406,34 +461,35 @@ https://www.tooplate.com/view/2120-ben-resume
             </form>
           </div> -->
 
-  <div class="mx-auto col-lg-4 col-md-6 col-12">
-    <h3 class="my-4 pt-4 pt-lg-0">Say hello</h3>
+        <div class="mx-auto col-lg-4 col-md-6 col-12">
+          <h3 class="my-4 pt-4 pt-lg-0">Say hello</h3>
 
-    <p class="mb-1">801-971-8153</p>
+          <p class="mb-1">801-971-8153</p>
 
-    <p>
-      <a href="mailto: bdlgoodrich@gmail.com">
-        bdlgoodrich@gmail.com
-      </a>
-    </p>
+          <p>
+            <a href="mailto: bdlgoodrich@gmail.com">
+              bdlgoodrich@gmail.com
+            </a>
+          </p>
 
-    <ul class="social-links mt-2">
-      <!--<li><a href="https://fb.com/tooplate" rel="noopener" class="fab fa-facebook"></a></li>
+          <ul class="social-links mt-2">
+            <!--<li><a href="https://fb.com/tooplate" rel="noopener" class="fab fa-facebook"></a></li>
                     <li><a href="#" rel="noopener" class="fab fa-twitter"></a></li>
                     <li><a href="#" rel="noopener" class="fab fa-instagram"></a></li>-->
-      <li><a href="http://www.linkedin.com/in/brianna-goodrich-377591254" rel="noopener" class="fab fa-linkedin"></a>
-      </li>
-      <!--<li><a href="#" rel="noopener" class="fab fa-youtube"></a></li>-->
-    </ul>
+            <li><a href="http://www.linkedin.com/in/brianna-goodrich-377591254" rel="noopener"
+                class="fab fa-linkedin"></a>
+            </li>
+            <!--<li><a href="#" rel="noopener" class="fab fa-youtube"></a></li>-->
+          </ul>
 
-    <!--<p class="copyright-text mt-5 pt-3">Copyright &copy; 2020 Ben Resume Page</p>-->
+          <!--<p class="copyright-text mt-5 pt-3">Copyright &copy; 2020 Ben Resume Page</p>-->
+        </div>
 
-
-  </div>
-  </div>
-  </div>
+      </div> <!--container-->
+    </div> <!--row-->
   </section>
-  <div style="margin-top: 100px; margin-left: 100px;">
+
+  <div style="margin-top: 150px; margin-left: 100px;">
     <p>This website was built off of a template from <a href="https://www.tooplate.com" title="free HTML templates"
         target="_blank">Tooplate</a></p>
   </div>
