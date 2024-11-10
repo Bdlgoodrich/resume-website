@@ -98,7 +98,7 @@ https://www.tooplate.com/view/2120-ben-resume
     font-size: var(--h6-font-size);
   }
 
-  p {
+  p, .list {
     color: var(--p-color);
     font-size: var(--p-font-size);
     font-weight: var(--font-weight-light);
@@ -107,7 +107,7 @@ https://www.tooplate.com/view/2120-ben-resume
   }
 
   .section-padding {
-    padding: 6rem 0;
+    padding: 3rem 0;
   }
 
   .custom-icon {
@@ -117,7 +117,6 @@ https://www.tooplate.com/view/2120-ben-resume
     left: 5px;
     transform: rotate(-25deg);
   }
-
 
   /* CUSTOM BUTTON */
   .custom-btn {
@@ -329,6 +328,10 @@ https://www.tooplate.com/view/2120-ben-resume
      ABOUT                
   -----------------------------------------*/
   
+  .about-padding{
+    
+  }
+  
   .about-third {
 	  margin: 2.2em -0.8em;
   }
@@ -384,41 +387,41 @@ https://www.tooplate.com/view/2120-ben-resume
 
 
   /*---------------------------------------
-     code-samples               
+     code-projects               
   -----------------------------------------*/
 
-  .code-samples {
+  .code-projects {
     background: #f4edfd;
   }
 
-  .code-samples-image {
+  .code-projects-image {
     margin: 0 1rem 1rem 1rem;
   }
 
-  .code-samples-image img {
+  .code-projects-image img {
     border-radius: var(--border-radius-medium);
   }
 
-  .code-samples-info {
+  .code-projects-info {
     width: 100%;
   }
 
-  .code-samples .owl-theme .owl-nav.disabled+.owl-dots {
+  .code-projects .owl-theme .owl-nav.disabled+.owl-dots {
     margin-top: 2rem;
   }
 
-  .code-samples .owl-theme .owl-dots .owl-dot {
+  .code-projects .owl-theme .owl-dots .owl-dot {
     outline: none;
   }
 
-  .code-samples .owl-theme .owl-dots .owl-dot span {
+  .code-projects .owl-theme .owl-dots .owl-dot span {
     width: 30px;
     height: 3px;
     margin: 5px;
   }
 
-  .code-samples .owl-theme .owl-dots .owl-dot.active span, 
-  .code-samples .owl-theme .owl-dots .owl-dot:hover span {
+  .code-projects .owl-theme .owl-dots .owl-dot.active span, 
+  .code-projects .owl-theme .owl-dots .owl-dot:hover span {
     background: var(--primary-color);
   }
 

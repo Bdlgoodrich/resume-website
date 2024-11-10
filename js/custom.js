@@ -22,8 +22,8 @@
         }               
     });
 
-    // code-samples CAROUSEL
-    $('#code-samples-carousel').owlCarousel({
+    // code-projects CAROUSEL
+    $('#code-projects-carousel').owlCarousel({
         loop:true,
         margin:10,
         responsiveClass:true,
