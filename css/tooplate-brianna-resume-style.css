@@ -350,11 +350,19 @@ https://www.tooplate.com/view/2120-ben-resume
     margin-right: 1rem;
   }
 
+  .tech-padding {
+    padding-top: 40px;
+  }
+
 
   /*---------------------------------------
      FAQ                 
   -----------------------------------------*/
 
+  .faq-padding {
+    padding-top: 100px;
+  }
+  
   .faq .card-header {
     padding: 0;
   }
